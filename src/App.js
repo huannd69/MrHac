@@ -12,7 +12,7 @@ import AppReducer from './reducers';
 
 const store = createStore(AppReducer, applyMiddleware(thunk));
 
-const Kernel = () => (
+const Kernel = () => ( 
   <div>
     <ToastContainer autoClose={3000} />
     <Provider store={store}>
